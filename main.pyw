@@ -22,7 +22,7 @@ date_now = datetime.now()
 #                           minute=0)
 #     finish_time = datetime(year=dt.year, month=dt.month, day=dt.day, hour=18,
 #                            minute=0)
-# Выбор по дням недели.
+
 saturday, sunday = 6, 7
 if date_now.isoweekday() == saturday or date_now.isoweekday() == sunday:
     start_time, finish_time = "7:00", "7:00"
