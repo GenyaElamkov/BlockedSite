@@ -25,7 +25,7 @@ date_now = datetime.now()
 
 saturday, sunday = 6, 7
 if date_now.isoweekday() == saturday or date_now.isoweekday() == sunday:
-    start_time, finish_time = "7:00", "7:00"
+    start_time, finish_time = "7:00", "9:00"
 else:
     start_time, finish_time = "7:00", "18:00"
 
